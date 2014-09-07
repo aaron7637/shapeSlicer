@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <LinearLayout
+        android:id="@+id/main_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="190px"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textAlignment="center" >
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:text="Resume" />
+
+        <Space
+            android:layout_width="40px"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" />
+
+</LinearLayout>
